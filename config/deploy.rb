@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.14.1"
 
-set :application, "cicada"
-set :repo_url, "git@git.100tal.com:jituan_xinxi_be/cicada.git"
+set :application, "example"
+set :repo_url, "git@git.100tal.com:example.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

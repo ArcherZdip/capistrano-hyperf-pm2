@@ -4,7 +4,7 @@
 # You can define all roles on a single server, or split them:
 
 server :local, user: "www", roles: %w{web}, primary: true
-server "10.3.238.15", user: "www", roles: %w{web task}
+server "x.x.x.x", user: "www", roles: %w{web task}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
