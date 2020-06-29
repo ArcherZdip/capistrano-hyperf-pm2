@@ -20,5 +20,7 @@ npm install pm2 -g
 ```
 
 ## Usage
+使用pm2重启的时候`restart`导致修改的配置文件或者缓存不生效，所以目前使用先删除再启动方式。
+
 配置好相关服务器配置和目录信息后执行相关命令，如：
 `cap production deploy`
